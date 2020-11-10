@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    let functionNumber1 = function (number1) {
+      return  number1 = prompt('enter number1')
+    }
+    let functionNumber2 = function (number2) {
+      return  number2 = prompt('enter number2')
+    }
+    while (true) {
+            let finck1 = functionNumber1().toString()
+            let finck2 = functionNumber2().toString()
+            if (!parseInt(finck1) || !parseInt(finck2)) {
+                alert('не число')
+                break
+            } if (finck1 == finck2) {
+                alert('числа равны')
+                continue 
+            }else if (finck1 > finck2) {
+                alert('number 1 is bigger')
+                continue 
+            }else if (finck1 < finck2) {
+                alert('number 2 is bigger')
+                continue 
+            } 
+           
+    }
+</script>
+<body>
+    
+</body>
+</html>
